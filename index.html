@@ -30,6 +30,50 @@
         },
       };
     </script>
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", system-ui;
+      }
+    </style>
   </head>
-  <body></body>
+  <body class="font-manrope">
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-24">
+      <!-- header section  -->
+      <header class="flex items-center gap-5 mt-20">
+        <!-- Text content  -->
+        <div class="">
+          <h1 class="text-5xl md:text-6xl font-extrabold mb-7">
+            It's good<br />
+            tea time at The<br />
+            Tea House
+          </h1>
+          <p class="text-gray-500 w-3/4 mb-7">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            class="w-48 h-16 text-xl text-white rounded-lg bg-gradient-to-r from-orange-400 to-red-600 font-bold"
+          >
+            Explore More
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+        </div>
+
+        <!-- image content  -->
+        <div class="relative mt-10">
+          <img src="images/banner.png" alt="" />
+          <div
+            class="absolute top-80 left-14 py-5 px-7 flex items-center gap-3 border-2 bg-white shadow-lg rounded-lg"
+          >
+            <i class="fa-solid fa-star text-4xl text-amber-500"></i>
+            <div>
+              <h1 class="text-3xl font-semibold">5.00</h1>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
+  </body>
 </html>
